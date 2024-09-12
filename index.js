@@ -68,7 +68,7 @@ const start = async () => {
         
         const opcao = await select ({
             message: "Menu >",
-            chices: [
+            choices: [
                 {
                     name:"Cadastrar meta",
                     value: "cadastrar"
